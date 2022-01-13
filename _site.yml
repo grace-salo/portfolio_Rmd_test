@@ -37,7 +37,7 @@ navbar:
       href: https://www.linkedin.com/in/grace-salo/
 output:
   html_document:
-    theme: cosmo  #darkly
+    theme: flatly
     highlight: textmate
     include:
       after_body: footer.html

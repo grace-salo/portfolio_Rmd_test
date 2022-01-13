@@ -1,0 +1,26 @@
+name: "portfolio"
+navbar:
+  title: "Grace Salo Portfolio"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Contact"
+      href: contact.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<gracesalo01@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/<YOUR_GH_NAME>/
+    - icon: fa-linkedin-in fa-lg
+      href: https://www.linkedin.com/in/grace-salo/
+output:
+  html_document:
+    theme: cosmo  #darkly
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
